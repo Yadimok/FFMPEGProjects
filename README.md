@@ -14,6 +14,6 @@ libavfilter     6. 65.100 /  6. 65.100
 libswscale      4.  2.100 /  4.  2.100
 libswresample   2.  3.100 /  2.  3.100
 
-How to compile:
+<b>How to compile:</b>
 g++ screenrecorder.h screenrecorder.cpp main.cpp -o screenrecorder `pkg-config --libs libavcodec libavformat libswscale libavutil libavdevice`
 
