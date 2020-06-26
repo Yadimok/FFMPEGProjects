@@ -11,4 +11,4 @@ g++ screenrecorder.h screenrecorder.cpp main.cpp -o screenrecorder `pkg-config -
 
 2. FrameViewer - In code set the frame manually and show the picture using GLFW. 
 <b>FFMPEG version:</b>
-<b>ffmpeg version 4.2.3 Copyright (c) 2000-2020 the FFmpeg developers</b>
+ffmpeg version 4.2.3 Copyright (c) 2000-2020 the FFmpeg developers
