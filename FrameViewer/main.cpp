@@ -2,7 +2,7 @@
 *
 * Copyright (C) Yadimok2020
 *
-* EncDecryptor is free software; you can redistribute it and/or
+* FrameViewer is free software; you can redistribute it and/or
 * modify it under the terms of the GNU Library General Public
 * License as published by the Free Software Foundation; either
 * version 2 of the License, or (at your option) any later version.
@@ -29,7 +29,7 @@ extern "C" {
 #include <libswscale/swscale.h>
 }
 
-const char gFileName[]  = "/home/dmitrii/video.mp4";
+const char gFileName[]  = "/home/Yadimok/video.mp4";
 const int WIDTH_WINDOW  = 1300;
 const int HEIGHT_WINDOW = 1000;
 const int FRAME_INDEX   = 750;
