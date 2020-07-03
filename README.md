@@ -16,3 +16,8 @@ ffmpeg version 4.2.3 Copyright (c) 2000-2020 the FFmpeg developers
 3. FrameBMP - In the code set the frame manually and save the image in BMP format. 
 <b>FFMPEG version:</b>
 ffmpeg version 4.2.3 Copyright (c) 2000-2020 the FFmpeg developers
+
+4. FrameJPEG - In the code set the frame manually and save the image in JPG format using jpeglib.
+<b>FFMPEG version:</b>
+ffmpeg version 4.2.3 Copyright (c) 2000-2020 the FFmpeg developers
+
