@@ -20,4 +20,6 @@ g++ screenrecorder.h screenrecorder.cpp main.cpp -o screenrecorder `pkg-config -
 
 `FFMPEG version: ffmpeg version 4.2.3 Copyright (c) 2000-2020 the FFmpeg developers`
 
+5. <b>FramePlayOpenGL</b> - Playing videos using `OpenGL`
 
+`FFMPEG version: ffmpeg version 4.2.3 Copyright (c) 2000-2020 the FFmpeg developers`
