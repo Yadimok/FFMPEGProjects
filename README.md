@@ -23,3 +23,7 @@ g++ screenrecorder.h screenrecorder.cpp main.cpp -o screenrecorder `pkg-config -
 5. <b>FramePlayOpenGL</b> - Playing videos using `OpenGL`
 
 `FFMPEG version: ffmpeg version 4.2.3 Copyright (c) 2000-2020 the FFmpeg developers`
+
+6. <b>QMiniRecorder</b> - Mini screen recorder. Used codec format `MPEG-4`. The project was taken as a basis from list #1.
+
+`FFMPEG version: ffmpeg version 4.2.3 Copyright (c) 2000-2020 the FFmpeg developers`
