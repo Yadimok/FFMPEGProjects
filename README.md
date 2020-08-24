@@ -28,5 +28,6 @@ g++ screenrecorder.h screenrecorder.cpp main.cpp -o screenrecorder `pkg-config -
 
 `FFMPEG version: ffmpeg version 4.2.3 Copyright (c) 2000-2020 the FFmpeg developers`
 
-	6.1 To compress a video you can use the command: `ffmpeg -hwaccel cuda -i video.mp4 -c:v libx264 output.mkv` or 
+6.1 To compress a video you can use the command: `ffmpeg -hwaccel cuda -i video.mp4 -c:v libx264 output.mkv` or 
 	`ffmpeg -hwaccel cuda -i video.mp4 -c:v libx265 output2.mkv`
+
