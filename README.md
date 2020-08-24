@@ -27,3 +27,5 @@ g++ screenrecorder.h screenrecorder.cpp main.cpp -o screenrecorder `pkg-config -
 6. <b>QMiniRecorder</b> - Mini screen recorder. Used codec format `MPEG-4`. The project was taken as a basis from list #1.
 
 `FFMPEG version: ffmpeg version 4.2.3 Copyright (c) 2000-2020 the FFmpeg developers`
+	6.1 To compress a video you can use the command: `ffmpeg -hwaccel cuda -i video.mp4 -c:v libx264 output.mkv` or 
+	`ffmpeg -hwaccel cuda -i video.mp4 -c:v libx265 output2.mkv`
