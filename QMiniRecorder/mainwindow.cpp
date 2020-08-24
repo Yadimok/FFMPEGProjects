@@ -36,13 +36,13 @@ MainWindow::MainWindow(QWidget *parent)
 
     leFrameRate = new QLineEdit;
     leFrameRate->setValidator(new QIntValidator(0, SIZE_SCREEN_FREQUENCY, this));
-    leFrameRate->setText("40");
+    leFrameRate->setText("30");
 
     labelFileName = new QLabel;
     labelFileName->setText(tr("Input file name for save (without suffix <b>'.mp4'</b>):"));
 
     leFileName = new QLineEdit;
-    leFileName->setText(QDir::currentPath() + "/");
+    leFileName->setText(QDir::currentPath() + "/video");
 
     labelSaveFileName = new QLabel;
     labelRecordingTime = new QLabel;

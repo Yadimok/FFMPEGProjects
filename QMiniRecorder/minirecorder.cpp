@@ -154,7 +154,7 @@ void MiniRecorder::InitOutputFile(QString &fileName)
     outAVCodecContext->codec_id = AV_CODEC_ID_MPEG4;
     outAVCodecContext->codec_type = AVMEDIA_TYPE_VIDEO;
     outAVCodecContext->pix_fmt  = AV_PIX_FMT_YUV420P;
-    outAVCodecContext->bit_rate = 512 * 1000; //4096 * 1000
+    outAVCodecContext->bit_rate = 8 * 1024 * 1024; //4096 * 1000
     outAVCodecContext->width = mWidth;
     outAVCodecContext->height = mHeight;
     outAVCodecContext->time_base.num = 1;
@@ -351,7 +351,6 @@ void MiniRecorder::logger(const AVFormatContext *fmt_ctx, const AVPacket *pkt, u
 {
     char buf1[AV_TS_MAX_STRING_SIZE] = {0};
     char buf2[AV_TS_MAX_STRING_SIZE] = {0};
-    char buf3[AV_TS_MAX_STRING_SIZE] = {0};
 
     AVRational *time_base = &fmt_ctx->streams[pkt->stream_index]->time_base;
 
